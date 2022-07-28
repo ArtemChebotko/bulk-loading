@@ -9,7 +9,7 @@ into tables `ratings_by_user` and `ratings_by_movie`.
 
 Output the first five lines from the file:
 ```
-head -n 5 ratings.csv
+head -n 5 assets/ratings.csv
 ```
 
 Verify that the tables are empty:

@@ -9,7 +9,7 @@ into table `movies`.
 
 Output the first five lines from the file:
 ```
-head -n 5 movies.csv
+head -n 5 assets/movies.csv
 ```
 
 Verify that the table is empty:

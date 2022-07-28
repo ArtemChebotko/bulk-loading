@@ -9,7 +9,7 @@ into table `users` with columns `id`, `gender` and `age`.
 
 Output the first five lines from the file:
 ```
-head -n 5 users.csv
+head -n 5 assets/users.csv
 ```
 
 Verify that the table is empty:
