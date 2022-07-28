@@ -23,7 +23,7 @@ need to provide an explicit mapping this time.
 
 Load data into table `ratings_by_user`:
 ```
-dsbulk load -url ratings.csv      \
+dsbulk load -url assets/ratings.csv      \
             -k killr_video        \
             -t ratings_by_user    \
             -header true          \
@@ -35,7 +35,7 @@ Load data into table `ratings_by_movie`:
   <summary>Solution</summary>
 
 ```
-dsbulk load -url ratings.csv      \
+dsbulk load -url assets/ratings.csv      \
             -k killr_video        \
             -t ratings_by_movie   \
             -header true          \

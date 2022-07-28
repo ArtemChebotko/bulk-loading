@@ -22,7 +22,7 @@ Load data:
   <summary>Solution</summary>
 
 ```
-dsbulk load -url movies.csv       \
+dsbulk load -url assets/movies.csv       \
             -k killr_video        \
             -t movies             \
             -header true          \
