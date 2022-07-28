@@ -22,15 +22,15 @@ Load data:
   <summary>Solution</summary>
 
 ```
-dsbulk load -url assets/movies.csv       \
-            -k killr_video        \
-            -t movies             \
-            -header true          \
-            -m "movie_id=id,      \
-                title=title,      \
-                year=year,        \
-                duration=duration,\
-                country=country"  \
+dsbulk load -url assets/movies.csv \
+            -k killr_video         \
+            -t movies              \
+            -header true           \
+            -m "movie_id=id,       \
+                title=title,       \
+                year=year,         \
+                duration=duration, \
+                country=country"   \
             -logDir /tmp/logs
 ```
 

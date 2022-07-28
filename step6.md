@@ -23,10 +23,10 @@ need to provide an explicit mapping this time.
 
 Load data into table `ratings_by_user`:
 ```
-dsbulk load -url assets/ratings.csv      \
-            -k killr_video        \
-            -t ratings_by_user    \
-            -header true          \
+dsbulk load -url assets/ratings.csv \
+            -k killr_video          \
+            -t ratings_by_user      \
+            -header true            \
             -logDir /tmp/logs
 ```
 
@@ -35,10 +35,10 @@ Load data into table `ratings_by_movie`:
   <summary>Solution</summary>
 
 ```
-dsbulk load -url assets/ratings.csv      \
-            -k killr_video        \
-            -t ratings_by_movie   \
-            -header true          \
+dsbulk load -url assets/ratings.csv \
+            -k killr_video          \
+            -t ratings_by_movie     \
+            -header true            \
             -logDir /tmp/logs
 ```
 
